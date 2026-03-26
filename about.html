@@ -1,0 +1,268 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>About Us - Betach Business Coach</title>
+    <!-- Tailwind CSS v3 CDN -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Font Awesome for icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style data-purpose="typography">
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+    <style data-purpose="custom-colors">
+      .bg-brand-primary {
+        background-color: #1a1f38;
+      }
+      .text-brand-primary {
+        color: #1a1f38;
+      }
+      .bg-brand-accent {
+        background-color: #8d99ae;
+      }
+      .text-brand-accent {
+        color: #8d99ae;
+      }
+      .bg-page-bg {
+        background-color: #f5faff;
+      }
+      .text-page-text {
+        color: #0d0c0c;
+      }
+      .border-brand-primary {
+        border-color: #1a1f38;
+      }
+    </style>
+  </head>
+  <body class="bg-page-bg text-page-text overflow-x-hidden">
+    <nav class="sticky top-0 z-50 bg-brand-primary text-white shadow-md">
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center gap-3">
+          <img
+            alt="Betach Logo"
+            class="h-10 brightness-0 invert"
+            src="data:image/png;base64,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"
+            style=""
+          />
+          <span class="text-2xl font-bold tracking-tight" style=""><br /></span>
+        </div>
+        <div class="hidden md:flex items-center gap-8 font-semibold">
+          <a
+            class="hover:text-brand-accent transition-colors text-white"
+            href="index.html"
+            style=""
+            >Home</a
+          >
+          <a
+            class="hover:text-brand-accent transition-colors text-white border-b-2 border-brand-accent"
+            href="about.html"
+            style=""
+            >About Us</a
+          >
+          <a
+            class="hover:text-brand-accent transition-colors text-white"
+            href="services.html"
+            style=""
+            >Services</a
+          >
+          <a
+            class="hover:text-brand-accent transition-colors text-white"
+            href="contact.html"
+            style=""
+            >Contact Us</a
+          >
+        </div>
+        <div class="md:hidden">
+          <button class="text-white" style="">
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-brand-primary text-white py-20">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-4xl lg:text-6xl font-extrabold mb-6 uppercase">About Betach</h1>
+        <p class="text-lg text-slate-300 max-w-2xl mx-auto">
+          Empowering India's MSMEs to transform from firefighting to sustainable growth through expert business coaching.
+        </p>
+      </div>
+    </header>
+
+    <!-- Mission & Vision -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div>
+            <h2 class="text-3xl font-bold text-brand-primary mb-8 uppercase">Our Mission</h2>
+            <p class="text-slate-600 mb-6 leading-relaxed">
+              Our mission is to help 1 million MSME business owners build impactful businesses and become industry leaders. We believe that MSMEs are the backbone of the Indian economy, and our goal is to provide them with the systems, strategies, and mindset needed to scale.
+            </p>
+            <h2 class="text-3xl font-bold text-brand-primary mb-8 uppercase">Our Vision</h2>
+            <p class="text-slate-600 leading-relaxed">
+              To be the most trusted and impactful business coaching organization in India, recognized for transforming traditional businesses into professionally managed, high-growth enterprises.
+            </p>
+          </div>
+          <div class="relative">
+            <img
+              alt="Our Mission"
+              class="rounded-sm shadow-2xl"
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1000"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="py-20 bg-slate-50">
+      <div class="container mx-auto px-6">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-3xl font-bold text-brand-primary mb-12 text-center uppercase">The Betach Story</h2>
+          <div class="space-y-8 text-slate-600 leading-relaxed">
+            <p>
+              Founded with a passion for entrepreneurship, Betach began its journey 18 years ago. We noticed a recurring pattern among MSME owners: they were working FOR their business rather than ON it.
+            </p>
+            <p>
+              We realized that while these owners had the passion and product knowledge, they often lacked the management systems and growth frameworks required to scale. This insight led to the creation of our signature coaching programs.
+            </p>
+            <p>
+              Today, with a team of over 70 in-house coaches, we have impacted thousands of lives across 196+ industries. Our approach is hands-on, practical, and results-driven.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-brand-dark text-white pt-20 pb-10 border-t border-slate-800"
+    >
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-4 gap-12 mb-16">
+          <!-- Brand Info -->
+          <div class="col-span-1 md:col-span-1">
+            <div class="text-2xl font-black mb-6">
+              <div class="flex items-center gap-2" style="">
+                <img
+                  alt="Betach Logo"
+                  class="h-8 invert brightness-0"
+                  src="data:image/png;base64,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"
+                  style=""
+                />
+                BETACH
+              </div>
+            </div>
+            <p class="text-slate-400 text-sm leading-relaxed mb-8" style="">
+              Betach Consulting &amp; Solutions. Empowering MSMEs across India
+              to scale with systems and strategies.
+            </p>
+            <div class="flex gap-4">
+              <a
+                class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-brand-yellow hover:text-brand-dark transition-all"
+                href="#"
+                style=""
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a
+                class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-brand-yellow hover:text-brand-dark transition-all"
+                href="#"
+                style=""
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-brand-yellow hover:text-brand-dark transition-all"
+                href="#"
+                style=""
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Quick Links -->
+          <div>
+            <h4 class="font-bold mb-6" style="">QUICK LINKS</h4>
+            <ul class="space-y-4 text-sm text-slate-400">
+              <li class="" style="">
+                <a class="hover:text-brand-yellow" href="index.html" style="">Home</a>
+              </li>
+              <li class="" style="">
+                <a class="hover:text-brand-yellow" href="about.html" style="">About</a>
+              </li>
+              <li class="" style="">
+                <a class="hover:text-brand-yellow" href="services.html" style=""
+                  >Programs</a
+                >
+              </li>
+              <li class="" style="">
+                <a class="hover:text-brand-yellow" href="services.html" style=""
+                  >Products</a
+                >
+              </li>
+              <li class="" style="">
+                <a class="hover:text-brand-yellow" href="contact.html" style="">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Support -->
+          <div>
+            <h4 class="font-bold mb-6" style="">SUPPORT</h4>
+            <ul class="space-y-4 text-sm text-slate-400">
+              <li class="" style="">
+                <a class="hover:text-brand-yellow" href="#" style=""
+                  >Terms &amp; Conditions</a
+                >
+              </li>
+              <li class="" style="">
+                <a class="hover:text-brand-yellow" href="contact.html" style=""
+                  >Contact Us</a
+                >
+              </li>
+              <li class="" style="">
+                <a class="hover:text-brand-yellow" href="#" style="">Sitemap</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Newsletter -->
+          <div>
+            <h4 class="font-bold mb-6" style="">STAY UPDATED</h4>
+            <p class="text-sm text-slate-400 mb-6" style="">
+              Get the latest business insights delivered to your inbox.
+            </p>
+            <form class="flex">
+              <input
+                class="bg-slate-800 border-none px-4 py-3 rounded-l-sm w-full focus:ring-1 focus:ring-brand-yellow text-sm"
+                placeholder="Your Email"
+                type="email"
+              />
+              <button
+                class="text-brand-dark px-4 py-3 rounded-r-sm hover:bg-yellow-400"
+                style=""
+              >
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div
+          class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 uppercase tracking-widest"
+        >
+          <p class="" style="">
+            © Copyright Quantum Leap Learning Solutions Pvt Ltd.
+          </p>
+          <p class="" style="">Built for scale and impact.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
