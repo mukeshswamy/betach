@@ -4,7 +4,9 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Our Services - Betach Business Coach</title>
+    <title>Our Programs - Betach Safety Leadership</title>
+    <!-- Google reCAPTCHA v2 -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Tailwind CSS v3 CDN -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <!-- Font Awesome for icons -->
@@ -73,7 +75,7 @@
             class="hover:text-brand-accent transition-colors text-white border-b-2 border-brand-accent"
             href="services.html"
             style=""
-            >Services</a
+            >Our Programs</a
           >
           <a
             class="hover:text-brand-accent transition-colors text-white"
@@ -81,8 +83,18 @@
             style=""
             >Contact Us</a
           >
+          <a
+            class="bg-yellow-400 hover:bg-yellow-500 text-brand-primary px-5 py-2.5 rounded-full font-bold text-sm transition-all shadow-md hover:shadow-lg hover:scale-105 active:scale-95 uppercase tracking-wide inline-block"
+            href="services.html#safer-program"
+            >JOIN the S.A.F.E.R leadership system</a
+          >
         </div>
-        <div class="md:hidden">
+        <div class="flex items-center gap-4 md:hidden">
+          <a
+            class="bg-yellow-400 hover:bg-yellow-500 text-brand-primary px-3 py-1.5 rounded-full font-bold text-xs transition-all uppercase tracking-wide"
+            href="services.html#safer-program"
+            >JOIN S.A.F.E.R</a
+          >
           <button class="text-white" style="">
             <i class="fa-solid fa-bars text-2xl"></i>
           </button>
@@ -91,313 +103,1205 @@
     </nav>
 
     <!-- Header Section -->
-    <header class="bg-brand-primary text-white py-20">
-      <div class="container mx-auto px-6 text-center">
-        <h1 class="text-4xl lg:text-6xl font-extrabold mb-6 uppercase">
-          Our Services
+    <header class="bg-[#0B131E] text-white py-24 relative overflow-hidden">
+      <div class="absolute inset-0 bg-[#007b85] opacity-5 mix-blend-overlay"></div>
+      <div class="container mx-auto px-6 text-center relative z-10">
+        <span class="text-yellow-400 font-bold uppercase tracking-widest text-sm mb-4 inline-block">Betach Safety Leadership</span>
+        <h1 class="text-4xl lg:text-6xl font-black mb-6 uppercase tracking-tight">
+          Our Programs
         </h1>
-        <p class="text-lg text-slate-300 max-w-2xl mx-auto">
-          Proven frameworks and hands-on guidance to help your business reach
-          its full potential.
+        <p class="text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
+          Industry-proven signature coaching, intensive bootcamps, and cultural maturity courses tailored for supervisors, managers, and HSE executives in high-risk environments.
         </p>
       </div>
     </header>
 
-    <!-- Detailed Services -->
-    <section class="py-24 bg-white">
+    <!-- Main Content Section -->
+    <section class="py-24 bg-slate-50">
       <div class="container mx-auto px-6">
-        <div class="space-y-32">
-          <!-- Service 1: Training -->
-          <div class="flex flex-col lg:flex-row items-center gap-16">
-            <div class="lg:w-1/2">
-              <div
-                class="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mb-8"
-              >
-                <i
-                  class="fa-solid fa-graduation-cap text-brand-primary text-2xl"
-                ></i>
+        
+        <!-- Flagship Program Showcase -->
+        <div id="safer-program" class="mb-20 scroll-mt-24">
+          <div class="bg-brand-primary text-white rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10 hover:shadow-yellow-500/5 hover:border-white/20 transition-all duration-300">
+            <!-- Decorative Gradient Light -->
+            <div class="absolute top-0 right-0 w-96 h-96 bg-yellow-400/10 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <div class="flex flex-col lg:flex-row gap-12 items-start relative z-10">
+              <!-- Left Column: Title & Intro -->
+              <div class="lg:w-1/2">
+                <span class="inline-flex items-center gap-2 bg-yellow-400 text-brand-primary text-xs font-black uppercase tracking-wider px-4 py-1.5 rounded-full mb-6">
+                  <i class="fa-solid fa-rocket animate-pulse"></i> Flagship Program
+                </span>
+                
+                <h2 class="text-3xl lg:text-5xl font-black mb-2 uppercase tracking-tight leading-tight">
+                  S.A.F.E.R.™ Safety Leadership Transformation Program
+                </h2>
+                <p class="text-yellow-400 font-extrabold text-lg lg:text-xl uppercase tracking-widest mb-6">
+                  (2-Day Signature Program)
+                </p>
+                
+                <p class="text-slate-300 text-lg leading-relaxed mb-8">
+                  A high-impact executive program designed to transform supervisors, managers, and executives from passive safety managers into active, visible safety leaders.
+                </p>
+
+                <!-- Target Audience -->
+                <div class="border-t border-white/10 pt-6">
+                  <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Target Audience</h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="bg-white/10 text-slate-200 border border-white/10 px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider">Supervisors</span>
+                    <span class="bg-white/10 text-slate-200 border border-white/10 px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider">Foremen</span>
+                    <span class="bg-white/10 text-slate-200 border border-white/10 px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider">Managers</span>
+                    <span class="bg-white/10 text-slate-200 border border-white/10 px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider">HSE Professionals</span>
+                  </div>
+                </div>
               </div>
-              <h2 class="text-3xl font-bold text-brand-primary mb-6 uppercase">
-                Impactful Training
-              </h2>
-              <p class="text-slate-600 mb-8 leading-relaxed">
-                Our training programs are designed for MSME business owners who
-                want to move beyond daily operations. We teach practical,
-                step-by-step strategies for scaling, financial management, and
-                team building.
+
+              <!-- Right Column: Key Modules -->
+              <div class="lg:w-1/2 w-full bg-slate-950/40 rounded-2xl p-6 lg:p-8 border border-white/10">
+                <h3 class="text-xl font-bold text-white mb-6 uppercase tracking-tight flex items-center gap-3">
+                  <span class="w-1.5 h-6 bg-yellow-400 rounded-full"></span> Key Modules
+                </h3>
+                <div class="grid sm:grid-cols-2 gap-6">
+                  <div class="flex gap-3">
+                    <span class="text-yellow-400 text-lg flex-shrink-0 mt-0.5"><i class="fa-solid fa-star"></i></span>
+                    <div>
+                      <h4 class="font-bold text-white uppercase text-sm tracking-wide">Shift Mindset</h4>
+                      <p class="text-xs text-slate-400 mt-1">Boss to Leader transition</p>
+                    </div>
+                  </div>
+                  <div class="flex gap-3">
+                    <span class="text-yellow-400 text-lg flex-shrink-0 mt-0.5"><i class="fa-solid fa-star"></i></span>
+                    <div>
+                      <h4 class="font-bold text-white uppercase text-sm tracking-wide">Accountability</h4>
+                      <p class="text-xs text-slate-400 mt-1">Ownership & leadership responsibilities</p>
+                    </div>
+                  </div>
+                  <div class="flex gap-3">
+                    <span class="text-yellow-400 text-lg flex-shrink-0 mt-0.5"><i class="fa-solid fa-star"></i></span>
+                    <div>
+                      <h4 class="font-bold text-white uppercase text-sm tracking-wide">Risk Awareness</h4>
+                      <p class="text-xs text-slate-400 mt-1">Decision making under hazard conditions</p>
+                    </div>
+                  </div>
+                  <div class="flex gap-3">
+                    <span class="text-yellow-400 text-lg flex-shrink-0 mt-0.5"><i class="fa-solid fa-star"></i></span>
+                    <div>
+                      <h4 class="font-bold text-white uppercase text-sm tracking-wide">Safety Dialogues</h4>
+                      <p class="text-xs text-slate-400 mt-1">Leading safety conversations on-site</p>
+                    </div>
+                  </div>
+                  <div class="flex gap-3">
+                    <span class="text-yellow-400 text-lg flex-shrink-0 mt-0.5"><i class="fa-solid fa-star"></i></span>
+                    <div>
+                      <h4 class="font-bold text-white uppercase text-sm tracking-wide">Team Ownership</h4>
+                      <p class="text-xs text-slate-400 mt-1">Empowering frontline crews</p>
+                    </div>
+                  </div>
+                  <div class="flex gap-3">
+                    <span class="text-yellow-400 text-lg flex-shrink-0 mt-0.5"><i class="fa-solid fa-star"></i></span>
+                    <div>
+                      <h4 class="font-bold text-white uppercase text-sm tracking-wide">Sustainable Culture</h4>
+                      <p class="text-xs text-slate-400 mt-1">Embedding proactive risk actions</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row gap-4 items-center justify-between">
+                  <div class="text-slate-400 text-xs uppercase tracking-wider">
+                    <i class="fa-regular fa-clock mr-1 text-yellow-400"></i> Duration: <strong class="text-white">2 Days</strong>
+                  </div>
+                  <button
+                    id="open-safer-modal"
+                    class="w-full sm:w-auto bg-yellow-400 hover:bg-yellow-500 text-brand-primary font-black px-6 py-3.5 rounded-full uppercase tracking-wider text-xs shadow-md transition-all text-center hover:scale-105 active:scale-95 cursor-pointer"
+                  >
+                    Enquire for Flagship Program
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other Programs Grid Header -->
+        <div class="mb-12 border-b border-slate-200 pb-6 flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
+          <div>
+            <span class="text-xs font-extrabold uppercase text-[#007b85] tracking-widest">Specialized Curriculum</span>
+            <h3 class="text-2xl lg:text-3xl font-black text-brand-primary uppercase tracking-tight mt-1">
+              Safety Leadership Suite
+            </h3>
+          </div>
+          <p class="text-slate-500 text-sm max-w-md">
+            Interactive, field-tested educational programs designed for rapid deployment and measurable behavioral change.
+          </p>
+        </div>
+
+        <!-- Grid of Programs 2-10 -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Program 2 -->
+          <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="flex justify-between items-start mb-6">
+                <div class="w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl font-bold group-hover:bg-[#007b85] group-hover:text-white transition-colors duration-300">
+                  <i class="fa-solid fa-helmet-safety"></i>
+                </div>
+                <span class="text-[10px] font-black uppercase tracking-widest bg-slate-100 text-slate-600 border border-slate-200 px-3 py-1 rounded-full">
+                  1 Day
+                </span>
+              </div>
+              <h4 class="text-lg font-black text-brand-primary uppercase tracking-tight mb-3 group-hover:text-[#007b85] transition-colors">
+                Frontline Safety Leadership Excellence
+              </h4>
+              <p class="text-slate-500 text-sm mb-6 leading-relaxed">
+                Designed for frontline supervisors who directly influence worker behavior.
               </p>
-              <ul class="space-y-4 mb-8">
-                <li class="flex items-start gap-3">
-                  <i
-                    class="fa-solid fa-check-circle text-brand-primary mt-1"
-                  ></i>
-                  <span class="text-slate-700">90-Day Growth Blueprint</span>
-                </li>
-                <li class="flex items-start gap-3">
-                  <i
-                    class="fa-solid fa-check-circle text-brand-primary mt-1"
-                  ></i>
-                  <span class="text-slate-700"
-                    >Financial Mastery for MSMEs</span
-                  >
-                </li>
-                <li class="flex items-start gap-3">
-                  <i
-                    class="fa-solid fa-check-circle text-brand-primary mt-1"
-                  ></i>
-                  <span class="text-slate-700"
-                    >Leadership & Management Training</span
-                  >
-                </li>
-              </ul>
-              <a
-                href="contact.html"
-                class="inline-block bg-brand-primary text-white font-bold py-4 px-8 rounded-sm hover:bg-slate-800 transition-colors"
-                >Enquire Now</a
-              >
+              <div class="space-y-3">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block border-b border-slate-100 pb-1.5">Key Topics</span>
+                <ul class="space-y-2 text-xs text-slate-600">
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Leadership in the Field</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Toolbox Talk Excellence</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Positive Safety Interventions</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Coaching Safe Behaviors</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Building Trust with Workers</li>
+                </ul>
+              </div>
             </div>
-            <div class="lg:w-1/2">
-              <img
-                src="https://images.unsplash.com/photo-1524178232363-1fb28f74b573?auto=format&fit=crop&q=80&w=1000"
-                alt="Training Session"
-                class="rounded-sm shadow-xl"
-              />
-            </div>
+            <a href="contact.html" class="mt-8 block text-center bg-slate-100 hover:bg-[#0B131E] text-slate-700 hover:text-white font-extrabold uppercase text-xs tracking-wider py-3 rounded-xl transition-all">
+              Enquire Program
+            </a>
           </div>
 
-          <!-- Service 2: Coaching -->
-          <div class="flex flex-col lg:flex-row-reverse items-center gap-16">
-            <div class="lg:w-1/2">
-              <div
-                class="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mb-8"
-              >
-                <i
-                  class="fa-solid fa-puzzle-piece text-brand-primary text-2xl"
-                ></i>
+          <!-- Program 3 -->
+          <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="flex justify-between items-start mb-6">
+                <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center text-xl font-bold group-hover:bg-[#f3a43b] group-hover:text-white transition-colors duration-300">
+                  <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <span class="text-[10px] font-black uppercase tracking-widest bg-slate-100 text-slate-600 border border-slate-200 px-3 py-1 rounded-full">
+                  1 Day
+                </span>
               </div>
-              <h2 class="text-3xl font-bold text-brand-primary mb-6 uppercase">
-                Transformational Coaching
-              </h2>
-              <p class="text-slate-600 mb-8 leading-relaxed">
-                Get personalized attention from our expert business coaches. We
-                work with you one-on-one to identify bottlenecks, refine your
-                vision, and implement growth strategies that fit your specific
-                industry.
+              <h4 class="text-lg font-black text-brand-primary uppercase tracking-tight mb-3 group-hover:text-[#f3a43b] transition-colors">
+                Incident Prevention Through Leadership
+              </h4>
+              <p class="text-slate-500 text-sm mb-6 leading-relaxed">
+                Focuses on preventing incidents before they occur.
               </p>
-              <ul class="space-y-4 mb-8">
-                <li class="flex items-start gap-3">
-                  <i
-                    class="fa-solid fa-check-circle text-brand-primary mt-1"
-                  ></i>
-                  <span class="text-slate-700">Weekly Coaching Calls</span>
-                </li>
-                <li class="flex items-start gap-3">
-                  <i
-                    class="fa-solid fa-check-circle text-brand-primary mt-1"
-                  ></i>
-                  <span class="text-slate-700">Customized Goal Tracking</span>
-                </li>
-                <li class="flex items-start gap-3">
-                  <i
-                    class="fa-solid fa-check-circle text-brand-primary mt-1"
-                  ></i>
-                  <span class="text-slate-700">Mindset shift workshops</span>
-                </li>
-              </ul>
-              <a
-                href="contact.html"
-                class="inline-block bg-brand-primary text-white font-bold py-4 px-8 rounded-sm hover:bg-slate-800 transition-colors"
-                >Find a Coach</a
-              >
+              <div class="space-y-3">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block border-b border-slate-100 pb-1.5">Key Topics</span>
+                <ul class="space-y-2 text-xs text-slate-600">
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Human Factors in Safety</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Recognizing Weak Signals</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Learning from Near Misses</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Risk-Based Decision Making</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Leadership Actions That Prevent Incidents</li>
+                </ul>
+              </div>
             </div>
-            <div class="lg:w-1/2">
-              <img
-                src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1000"
-                alt="Coaching Session"
-                class="rounded-sm shadow-xl"
-              />
-            </div>
+            <a href="contact.html" class="mt-8 block text-center bg-slate-100 hover:bg-[#0B131E] text-slate-700 hover:text-white font-extrabold uppercase text-xs tracking-wider py-3 rounded-xl transition-all">
+              Enquire Program
+            </a>
           </div>
 
-          <!-- Service 3: Consulting -->
-          <div class="flex flex-col lg:flex-row items-center gap-16">
-            <div class="lg:w-1/2">
-              <div
-                class="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mb-8"
-              >
-                <i class="fa-solid fa-users text-brand-primary text-2xl"></i>
+          <!-- Program 4 -->
+          <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="flex justify-between items-start mb-6">
+                <div class="w-12 h-12 rounded-xl bg-orange-50 text-orange-600 flex items-center justify-center text-xl font-bold group-hover:bg-orange-500 group-hover:text-white transition-colors duration-300">
+                  <i class="fa-solid fa-fire"></i>
+                </div>
+                <span class="text-[10px] font-black uppercase tracking-widest bg-slate-100 text-slate-600 border border-slate-200 px-3 py-1 rounded-full">
+                  2 Days
+                </span>
               </div>
-              <h2 class="text-3xl font-bold text-brand-primary mb-6 uppercase">
-                Hands-On Consulting
-              </h2>
-              <p class="text-slate-600 mb-8 leading-relaxed">
-                For businesses that need implementation support, our master
-                coaches enter your workplace to train your staff directly. We
-                help you build systems for HR, sales, and operations on the
-                ground.
+              <h4 class="text-lg font-black text-brand-primary uppercase tracking-tight mb-3 group-hover:text-orange-500 transition-colors">
+                Supervisor Safety Leadership Bootcamp
+              </h4>
+              <p class="text-slate-500 text-sm mb-6 leading-relaxed">
+                A practical program for newly promoted supervisors.
               </p>
-              <ul class="space-y-4 mb-8">
-                <li class="flex items-start gap-3">
-                  <i
-                    class="fa-solid fa-check-circle text-brand-primary mt-1"
-                  ></i>
-                  <span class="text-slate-700">SOP Implementation</span>
-                </li>
-                <li class="flex items-start gap-3">
-                  <i
-                    class="fa-solid fa-check-circle text-brand-primary mt-1"
-                  ></i>
-                  <span class="text-slate-700">On-site Staff Training</span>
-                </li>
-                <li class="flex items-start gap-3">
-                  <i
-                    class="fa-solid fa-check-circle text-brand-primary mt-1"
-                  ></i>
-                  <span class="text-slate-700">Departmental Audit & Fix</span>
-                </li>
-              </ul>
-              <a
-                href="contact.html"
-                class="inline-block bg-brand-primary text-white font-bold py-4 px-8 rounded-sm hover:bg-slate-800 transition-colors"
-                >Consult an Expert</a
-              >
+              <div class="space-y-3">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block border-b border-slate-100 pb-1.5">Key Topics</span>
+                <ul class="space-y-2 text-xs text-slate-600">
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Transition from Worker to Leader</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Managing People Safely</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Accountability & Ownership</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Communication Skills</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Field Leadership</li>
+                </ul>
+              </div>
             </div>
-            <div class="lg:w-1/2">
-              <img
-                src="https://images.unsplash.com/photo-1600880212340-02d956ea3cf1?auto=format&fit=crop&q=80&w=1000"
-                alt="Consulting in action"
-                class="rounded-sm shadow-xl"
-              />
-            </div>
+            <a href="contact.html" class="mt-8 block text-center bg-slate-100 hover:bg-[#0B131E] text-slate-700 hover:text-white font-extrabold uppercase text-xs tracking-wider py-3 rounded-xl transition-all">
+              Enquire Program
+            </a>
           </div>
+
+          <!-- Program 5 -->
+          <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="flex justify-between items-start mb-6">
+                <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xl font-bold group-hover:bg-[#00abeb] group-hover:text-white transition-colors duration-300">
+                  <i class="fa-solid fa-users-gear"></i>
+                </div>
+                <span class="text-[10px] font-black uppercase tracking-widest bg-slate-100 text-slate-600 border border-slate-200 px-3 py-1 rounded-full">
+                  2 Days
+                </span>
+              </div>
+              <h4 class="text-lg font-black text-brand-primary uppercase tracking-tight mb-3 group-hover:text-[#00abeb] transition-colors">
+                Building a High-Performance Safety Culture
+              </h4>
+              <p class="text-slate-500 text-sm mb-6 leading-relaxed">
+                For organizations seeking cultural transformation.
+              </p>
+              <div class="space-y-3">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block border-b border-slate-100 pb-1.5">Key Topics</span>
+                <ul class="space-y-2 text-xs text-slate-600">
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Safety Culture Maturity</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Leadership Influence</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Employee Engagement</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Behavior-Based Safety</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Sustaining Change</li>
+                </ul>
+              </div>
+            </div>
+            <a href="contact.html" class="mt-8 block text-center bg-slate-100 hover:bg-[#0B131E] text-slate-700 hover:text-white font-extrabold uppercase text-xs tracking-wider py-3 rounded-xl transition-all">
+              Enquire Program
+            </a>
+          </div>
+
+          <!-- Program 6 -->
+          <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="flex justify-between items-start mb-6">
+                <div class="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center text-xl font-bold group-hover:bg-purple-600 group-hover:text-white transition-colors duration-300">
+                  <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <span class="text-[10px] font-black uppercase tracking-widest bg-slate-100 text-slate-600 border border-slate-200 px-3 py-1 rounded-full">
+                  1 Day
+                </span>
+              </div>
+              <h4 class="text-lg font-black text-brand-primary uppercase tracking-tight mb-3 group-hover:text-purple-600 transition-colors">
+                Executive Safety Leadership Masterclass
+              </h4>
+              <p class="text-slate-500 text-sm mb-6 leading-relaxed">
+                Designed for senior managers and executives.
+              </p>
+              <div class="space-y-3">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block border-b border-slate-100 pb-1.5">Key Topics</span>
+                <ul class="space-y-2 text-xs text-slate-600">
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Visible Felt Leadership</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Strategic Safety Leadership</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Leading Indicators</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Governance & Accountability</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Creating a Safety Vision</li>
+                </ul>
+              </div>
+            </div>
+            <a href="contact.html" class="mt-8 block text-center bg-slate-100 hover:bg-[#0B131E] text-slate-700 hover:text-white font-extrabold uppercase text-xs tracking-wider py-3 rounded-xl transition-all">
+              Enquire Program
+            </a>
+          </div>
+
+          <!-- Program 7 -->
+          <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="flex justify-between items-start mb-6">
+                <div class="w-12 h-12 rounded-xl bg-pink-50 text-pink-600 flex items-center justify-center text-xl font-bold group-hover:bg-pink-600 group-hover:text-white transition-colors duration-300">
+                  <i class="fa-solid fa-comments"></i>
+                </div>
+                <span class="text-[10px] font-black uppercase tracking-widest bg-slate-100 text-slate-600 border border-slate-200 px-3 py-1 rounded-full">
+                  1 Day
+                </span>
+              </div>
+              <h4 class="text-lg font-black text-brand-primary uppercase tracking-tight mb-3 group-hover:text-pink-600 transition-colors">
+                Coaching for Safety Leaders
+              </h4>
+              <p class="text-slate-500 text-sm mb-6 leading-relaxed">
+                Helping leaders coach rather than command.
+              </p>
+              <div class="space-y-3">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block border-b border-slate-100 pb-1.5">Key Topics</span>
+                <ul class="space-y-2 text-xs text-slate-600">
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Coaching Conversations</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Asking Powerful Questions</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Developing Ownership</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Influencing Behavior</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Building Trust</li>
+                </ul>
+              </div>
+            </div>
+            <a href="contact.html" class="mt-8 block text-center bg-slate-100 hover:bg-[#0B131E] text-slate-700 hover:text-white font-extrabold uppercase text-xs tracking-wider py-3 rounded-xl transition-all">
+              Enquire Program
+            </a>
+          </div>
+
+          <!-- Program 8 -->
+          <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="flex justify-between items-start mb-6">
+                <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl font-bold group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                  <i class="fa-solid fa-magnifying-glass-chart"></i>
+                </div>
+                <span class="text-[10px] font-black uppercase tracking-widest bg-slate-100 text-slate-600 border border-slate-200 px-3 py-1 rounded-full">
+                  1 Day
+                </span>
+              </div>
+              <h4 class="text-lg font-black text-brand-primary uppercase tracking-tight mb-3 group-hover:text-emerald-600 transition-colors">
+                Learning from Incidents & Root Cause Leadership
+              </h4>
+              <p class="text-slate-500 text-sm mb-6 leading-relaxed">
+                Move beyond blame and focus on learning.
+              </p>
+              <div class="space-y-3">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block border-b border-slate-100 pb-1.5">Key Topics</span>
+                <ul class="space-y-2 text-xs text-slate-600">
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Incident Investigation</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Human Performance</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Root Cause Analysis</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Corrective Actions</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Organizational Learning</li>
+                </ul>
+              </div>
+            </div>
+            <a href="contact.html" class="mt-8 block text-center bg-slate-100 hover:bg-[#0B131E] text-slate-700 hover:text-white font-extrabold uppercase text-xs tracking-wider py-3 rounded-xl transition-all">
+              Enquire Program
+            </a>
+          </div>
+
+          <!-- Program 9 -->
+          <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="flex justify-between items-start mb-6">
+                <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center text-xl font-bold group-hover:bg-[#f3a43b] group-hover:text-white transition-colors duration-300">
+                  <i class="fa-solid fa-eye"></i>
+                </div>
+                <span class="text-[10px] font-black uppercase tracking-widest bg-slate-100 text-slate-600 border border-slate-200 px-3 py-1 rounded-full">
+                  1 Day
+                </span>
+              </div>
+              <h4 class="text-lg font-black text-brand-primary uppercase tracking-tight mb-3 group-hover:text-[#f3a43b] transition-colors">
+                Visible Felt Leadership (VFL) Program
+              </h4>
+              <p class="text-slate-500 text-sm mb-6 leading-relaxed">
+                Highly popular in Oil & Gas.
+              </p>
+              <div class="space-y-3">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block border-b border-slate-100 pb-1.5">Key Topics</span>
+                <ul class="space-y-2 text-xs text-slate-600">
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Leadership Presence</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Effective Site Walks</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Safety Conversations</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Worker Engagement</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Building Trust in the Field</li>
+                </ul>
+              </div>
+            </div>
+            <a href="contact.html" class="mt-8 block text-center bg-slate-100 hover:bg-[#0B131E] text-slate-700 hover:text-white font-extrabold uppercase text-xs tracking-wider py-3 rounded-xl transition-all">
+              Enquire Program
+            </a>
+          </div>
+
+          <!-- Program 10 -->
+          <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="flex justify-between items-start mb-6">
+                <div class="w-12 h-12 rounded-xl bg-yellow-50 text-yellow-600 flex items-center justify-center text-xl font-bold group-hover:bg-yellow-500 group-hover:text-[#0B131E] transition-colors duration-300">
+                  <i class="fa-solid fa-award"></i>
+                </div>
+                <span class="text-[10px] font-black uppercase tracking-widest bg-slate-100 text-slate-600 border border-slate-200 px-3 py-1 rounded-full">
+                  3 Days
+                </span>
+              </div>
+              <h4 class="text-lg font-black text-brand-primary uppercase tracking-tight mb-3 group-hover:text-yellow-600 transition-colors">
+                Safety Culture Champion Certification
+              </h4>
+              <p class="text-slate-500 text-sm mb-6 leading-relaxed">
+                Develop internal safety champions within the organization.
+              </p>
+              <div class="space-y-3">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block border-b border-slate-100 pb-1.5">Key Topics</span>
+                <ul class="space-y-2 text-xs text-slate-600">
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Culture Building</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Safety Communication</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Leading Change</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Engagement Strategies</li>
+                  <li class="flex items-center gap-2"><i class="fa-solid fa-star text-yellow-400 text-[10px]"></i> Champion Action Plans</li>
+                </ul>
+              </div>
+            </div>
+            <a href="contact.html" class="mt-8 block text-center bg-slate-100 hover:bg-[#0B131E] text-slate-700 hover:text-white font-extrabold uppercase text-xs tracking-wider py-3 rounded-xl transition-all">
+              Enquire Program
+            </a>
+          </div>
+
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer
-      class="bg-brand-dark text-white pt-20 pb-10 border-t border-slate-800"
-    >
+    <footer class="bg-[#0B131E] text-white pt-20 pb-10 border-t border-slate-800">
       <div class="container mx-auto px-6">
         <div class="grid md:grid-cols-4 gap-12 mb-16">
-          <!-- Brand Info -->
-          <div class="col-span-1 md:col-span-1">
-            <div class="text-2xl font-black mb-6">
-              <div class="flex items-center gap-2" style="">
-                <img
-                  alt="Betach Logo"
-                  class="h-8 invert brightness-0"
-                  src="data:image/png;base64,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"
-                  style=""
-                />
-                BETACH
-              </div>
-            </div>
-            <p class="text-slate-400 text-sm leading-relaxed mb-8" style="">
-              Betach Consulting &amp; Solutions. Empowering MSMEs across India
-              to scale with systems and strategies.
-            </p>
-            <div class="flex gap-4">
-              <a
-                class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-brand-yellow hover:text-brand-dark transition-all"
-                href="#"
-                style=""
-                ><i class="fa-brands fa-youtube"></i
-              ></a>
-              <a
-                class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-brand-yellow hover:text-brand-dark transition-all"
-                href="#"
-                style=""
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a
-                class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-brand-yellow hover:text-brand-dark transition-all"
-                href="#"
-                style=""
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-            </div>
-          </div>
-          <!-- Quick Links -->
           <div>
-            <h4 class="font-bold mb-6" style="">QUICK LINKS</h4>
+            <div class="text-2xl font-black mb-6">BETACH</div>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Empowering managers and executives in the Oil &amp; Gas industry to scale operations securely and confidently through safety leadership.
+            </p>
+          </div>
+          <div>
+            <h4 class="font-bold mb-6">DIVISIONS</h4>
             <ul class="space-y-4 text-sm text-slate-400">
-              <li class="" style="">
-                <a class="hover:text-brand-yellow" href="index.html" style=""
-                  >Home</a
-                >
-              </li>
-              <li class="" style="">
-                <a class="hover:text-brand-yellow" href="about.html" style=""
-                  >About</a
-                >
-              </li>
-              <li class="" style="">
-                <a class="hover:text-brand-yellow" href="services.html" style=""
-                  >Programs</a
-                >
-              </li>
-              <li class="" style="">
-                <a class="hover:text-brand-yellow" href="services.html" style=""
-                  >Products</a
-                >
-              </li>
-              <li class="" style="">
-                <a class="hover:text-brand-yellow" href="contact.html" style=""
-                  >Contact Us</a
-                >
-              </li>
+              <li><a class="hover:text-yellow-400" href="learning-development.html">Learning &amp; Development</a></li>
+              <li><a class="hover:text-yellow-400" href="outsourcing-recruitment.html">Outsourcing &amp; Recruitment</a></li>
+              <li><a class="hover:text-yellow-400" href="peer-consulting.html">Peer Consulting</a></li>
             </ul>
           </div>
-          <!-- Support -->
           <div>
-            <h4 class="font-bold mb-6" style="">SUPPORT</h4>
+            <h4 class="font-bold mb-6">COMPANY</h4>
             <ul class="space-y-4 text-sm text-slate-400">
-              <li class="" style="">
-                <a class="hover:text-brand-yellow" href="#" style=""
-                  >Terms &amp; Conditions</a
-                >
-              </li>
-              <li class="" style="">
-                <a class="hover:text-brand-yellow" href="contact.html" style=""
-                  >Contact Us</a
-                >
-              </li>
-              <li class="" style="">
-                <a class="hover:text-brand-yellow" href="#" style="">Sitemap</a>
-              </li>
+              <li><a class="hover:text-yellow-400" href="index.html">Home</a></li>
+              <li><a class="hover:text-yellow-400" href="about.html">About Us</a></li>
+              <li><a class="hover:text-yellow-400" href="contact.html">Contact Us</a></li>
             </ul>
           </div>
-          <!-- Newsletter -->
           <div>
-            <h4 class="font-bold mb-6" style="">STAY UPDATED</h4>
-            <p class="text-sm text-slate-400 mb-6" style="">
-              Get the latest business insights delivered to your inbox.
-            </p>
+            <h4 class="font-bold mb-6">STAY UPDATED</h4>
             <form class="flex">
               <input
-                class="bg-slate-800 border-none px-4 py-3 rounded-l-sm w-full focus:ring-1 focus:ring-brand-yellow text-sm"
+                class="bg-slate-800 border-none px-4 py-3 rounded-l-full w-full text-sm focus:ring-1 focus:ring-yellow-400"
                 placeholder="Your Email"
                 type="email"
               />
-              <button
-                class="text-brand-dark px-4 py-3 rounded-r-sm hover:bg-yellow-400"
-                style=""
-              >
+              <button class="bg-[#f3a43b] text-white px-5 py-3 rounded-r-full hover:bg-[#f3a43b]/80">
                 <i class="fa-solid fa-paper-plane"></i>
               </button>
             </form>
           </div>
         </div>
-        <div
-          class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 uppercase tracking-widest"
-        >
-          <p class="" style="">
-            © Copyright Quantum Leap Learning Solutions Pvt Ltd.
-          </p>
-          <p class="" style="">Built for scale and impact.</p>
+        <div class="border-t border-slate-800 pt-8 flex justify-between items-center text-xs text-slate-500 uppercase tracking-widest">
+          <p>© Copyright Betach Consulting. All rights reserved.</p>
+          <p>Built for scale and impact.</p>
         </div>
       </div>
     </footer>
+    <!-- SAFER Application Modal -->
+    <div
+      id="safer-application-modal"
+      class="fixed inset-0 z-50 overflow-y-auto hidden opacity-0 transition-opacity duration-300 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm"
+    >
+      <div
+        class="relative bg-white border border-slate-200 text-slate-800 rounded-2xl w-full max-w-4xl overflow-hidden shadow-2xl transform scale-95 transition-transform duration-300 flex flex-col max-h-[90vh]"
+        id="safer-modal-card"
+      >
+        <!-- Modal Header -->
+        <div class="p-6 border-b border-slate-100 flex justify-between items-start bg-slate-50 flex-shrink-0">
+          <div>
+            <div class="flex items-center gap-2 mb-1.5 text-xs text-yellow-600 font-extrabold uppercase tracking-widest">
+              <i class="fa-solid fa-helmet-safety"></i> BETACH Consulting Services
+            </div>
+            <h3 class="text-xl lg:text-2xl font-black uppercase tracking-tight text-brand-primary leading-tight">
+              Apply for the SAFER Leadership Program
+            </h3>
+            <p class="text-[11px] text-slate-500 mt-2">
+              Complete the form below and our team will contact you to discuss the best learning pathway for you or your organization.
+            </p>
+          </div>
+          <button
+            id="close-safer-modal"
+            class="text-slate-400 hover:text-slate-700 hover:bg-slate-200/50 rounded-lg p-2 transition-colors"
+            title="Close modal"
+          >
+            <i class="fa-solid fa-xmark text-xl"></i>
+          </button>
+        </div>
+
+        <!-- Progress Indicator -->
+        <div class="px-8 py-4 bg-slate-50/50 border-b border-slate-100 flex items-center justify-between text-xs font-bold uppercase tracking-wider text-slate-400 flex-shrink-0">
+          <div class="flex items-center gap-2 text-slate-400" id="step-indicator-1">
+            <span class="w-6 h-6 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center text-xs font-black">1</span>
+            Personal Info
+          </div>
+          <div class="w-12 h-0.5 bg-slate-200 animate-none" id="step-line-1"></div>
+          <div class="flex items-center gap-2 text-slate-400" id="step-indicator-2">
+            <span class="w-6 h-6 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center text-xs font-black">2</span>
+            Requirements
+          </div>
+          <div class="w-12 h-0.5 bg-slate-200 animate-none" id="step-line-2"></div>
+          <div class="flex items-center gap-2 text-slate-400" id="step-indicator-3">
+            <span class="w-6 h-6 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center text-xs font-black">3</span>
+            Preferences
+          </div>
+        </div>
+
+        <!-- Application Form Content -->
+        <form id="safer-application-form" class="overflow-y-auto p-6 lg:p-8 flex-grow bg-white text-slate-800" novalidate>
+          
+          <!-- STEP 1: PERSONAL & PROFESSIONAL DETAILS -->
+          <div id="safer-step-1" class="space-y-6">
+            <div class="grid md:grid-cols-2 gap-8">
+              <!-- Left Column: Personal Information -->
+              <div class="space-y-4">
+                <span class="text-xs font-extrabold uppercase text-yellow-600 tracking-widest block mb-4 border-b border-slate-100 pb-2">Section 1: Personal Information</span>
+                <div class="flex flex-col gap-1.5">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Full Name <span class="text-red-500">*</span></label>
+                  <input
+                    type="text"
+                    name="fullname"
+                    required
+                    placeholder="John Doe"
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors"
+                  />
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please enter your name</span>
+                </div>
+                <div class="flex flex-col gap-1.5">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Email Address <span class="text-red-500">*</span></label>
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="john@company.com"
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors"
+                  />
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please enter a valid email address</span>
+                </div>
+                <div class="flex flex-col gap-1.5">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Mobile / WhatsApp <span class="text-red-500">*</span></label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    required
+                    placeholder="+971 50 123 4567"
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors"
+                  />
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please enter your contact number</span>
+                </div>
+                <div class="flex flex-col gap-1.5">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Country <span class="text-red-500">*</span></label>
+                  <select
+                    name="country"
+                    required
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors cursor-pointer"
+                  >
+                    <option value="" disabled selected>Select country</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="UAE">UAE</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="Oman">Oman</option>
+                    <option value="Kuwait">Kuwait</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="India">India</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please select your country</span>
+                </div>
+              </div>
+
+              <!-- Right Column: Professional Information -->
+              <div class="space-y-4">
+                <span class="text-xs font-extrabold uppercase text-yellow-600 tracking-widest block mb-4 border-b border-slate-100 pb-2">Section 2: Professional Information</span>
+                <div class="flex flex-col gap-1.5">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Company Name <span class="text-red-500">*</span></label>
+                  <input
+                    type="text"
+                    name="company"
+                    required
+                    placeholder="Chevron / Shell / QatarEnergy"
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors"
+                  />
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please enter your company name</span>
+                </div>
+                <div class="flex flex-col gap-1.5">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Current Job Title <span class="text-red-500">*</span></label>
+                  <input
+                    type="text"
+                    name="jobtitle"
+                    required
+                    placeholder="HSE Manager / Shift Supervisor"
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors"
+                  />
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please enter your job title</span>
+                </div>
+                <div class="flex flex-col gap-1.5">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Industry <span class="text-red-500">*</span></label>
+                  <select
+                    name="industry"
+                    required
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors cursor-pointer"
+                  >
+                    <option value="" disabled selected>Select industry</option>
+                    <option value="Oil & Gas">Oil & Gas</option>
+                    <option value="Petrochemical">Petrochemical</option>
+                    <option value="Construction">Construction</option>
+                    <option value="Energy">Energy</option>
+                    <option value="Manufacturing">Manufacturing</option>
+                    <option value="Infrastructure">Infrastructure</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please select your industry</span>
+                </div>
+                <div class="flex flex-col gap-1.5">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Years of Experience <span class="text-red-500">*</span></label>
+                  <select
+                    name="experience"
+                    required
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors cursor-pointer"
+                  >
+                    <option value="" disabled selected>Select experience level</option>
+                    <option value="0-5 Years">0-5 Years</option>
+                    <option value="5-10 Years">5-10 Years</option>
+                    <option value="10-15 Years">10-15 Years</option>
+                    <option value="15+ Years">15+ Years</option>
+                  </select>
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please select your experience</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 2: PROGRAM REQUIREMENTS -->
+          <div id="safer-step-2" class="space-y-6 hidden">
+            <div>
+              <span class="text-xs font-extrabold uppercase text-yellow-600 tracking-widest block mb-4 border-b border-slate-100 pb-2">Section 3: Program Requirements</span>
+              <div class="grid md:grid-cols-2 gap-6">
+                <!-- Registering For -->
+                <div class="flex flex-col gap-2">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Who are you registering for? <span class="text-red-500">*</span></label>
+                  <div class="grid grid-cols-3 gap-2.5">
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-bold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="registerFor" value="Myself" required class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>Myself</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-bold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="registerFor" value="My Team" class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>My Team</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-bold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="registerFor" value="My Organization" class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>My Org</span>
+                    </label>
+                  </div>
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please select an option</span>
+                </div>
+
+                <!-- Number of Participants -->
+                <div class="flex flex-col gap-2">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Number of Participants <span class="text-red-500">*</span></label>
+                  <div class="grid grid-cols-5 gap-2">
+                    <label class="flex items-center justify-center p-2.5 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-extrabold hover:border-slate-350 text-slate-750 transition-all text-center">
+                      <input type="radio" name="participants" value="1" required class="sr-only" />
+                      <span>1</span>
+                    </label>
+                    <label class="flex items-center justify-center p-2.5 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-extrabold hover:border-slate-350 text-slate-750 transition-all text-center">
+                      <input type="radio" name="participants" value="2-5" class="sr-only" />
+                      <span>2-5</span>
+                    </label>
+                    <label class="flex items-center justify-center p-2.5 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-extrabold hover:border-slate-350 text-slate-750 transition-all text-center">
+                      <input type="radio" name="participants" value="6-10" class="sr-only" />
+                      <span>6-10</span>
+                    </label>
+                    <label class="flex items-center justify-center p-2.5 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-extrabold hover:border-slate-350 text-slate-750 transition-all text-center">
+                      <input type="radio" name="participants" value="11-25" class="sr-only" />
+                      <span>11-25</span>
+                    </label>
+                    <label class="flex items-center justify-center p-2.5 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-extrabold hover:border-slate-350 text-slate-750 transition-all text-center">
+                      <input type="radio" name="participants" value="25+" class="sr-only" />
+                      <span>25+</span>
+                    </label>
+                  </div>
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please select participant volume</span>
+                </div>
+              </div>
+
+              <!-- Textareas -->
+              <div class="grid md:grid-cols-2 gap-6 mt-6">
+                <div class="flex flex-col gap-1.5">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">What is your biggest safety leadership challenge? <span class="text-red-500">*</span></label>
+                  <textarea
+                    name="challenge"
+                    required
+                    placeholder="Describe issues regarding compliance, frontline communication, supervisor accountability, etc."
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors h-28 resize-none"
+                  ></textarea>
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please describe your challenge</span>
+                </div>
+                
+                <div class="flex flex-col gap-1.5">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">What are you hoping to achieve from the SAFER Leadership Program? <span class="text-red-500">*</span></label>
+                  <textarea
+                    name="goals"
+                    required
+                    placeholder="What specific shifts in behavior, metrics, or culture are you hoping to drive?"
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors h-28 resize-none"
+                  ></textarea>
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please describe your goals</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 3: PREFERENCES & BUDGET -->
+          <div id="safer-step-3" class="space-y-6 hidden">
+            <div class="grid md:grid-cols-2 gap-8">
+              <!-- Left Column: Training Preferences -->
+              <div class="space-y-4">
+                <span class="text-xs font-extrabold uppercase text-yellow-600 tracking-widest block mb-4 border-b border-slate-100 pb-2">Section 4: Training Preferences</span>
+                <!-- Preferred Format -->
+                <div class="flex flex-col gap-2">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Preferred Training Format <span class="text-red-500">*</span></label>
+                  <div class="grid grid-cols-2 gap-2.5">
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-semibold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="format" value="Public Workshop" required class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>Public Workshop</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-semibold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="format" value="In-House Corporate Training" class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>In-House Corp</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-semibold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="format" value="Virtual Training" class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>Virtual Training</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-semibold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="format" value="Executive Coaching" class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>Exec Coaching</span>
+                    </label>
+                  </div>
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please select a training format</span>
+                </div>
+
+                <!-- Preferred Location -->
+                <div class="flex flex-col gap-1.5 pt-2">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Preferred Training Location <span class="text-red-500">*</span></label>
+                  <input
+                    type="text"
+                    name="location"
+                    required
+                    placeholder="e.g. Doha, Dubai, On-Site, Online"
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors h-[46px]"
+                  />
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please enter a preferred location</span>
+                </div>
+              </div>
+
+              <!-- Right Column: Qualification -->
+              <div class="space-y-4">
+                <span class="text-xs font-extrabold uppercase text-yellow-600 tracking-widest block mb-4 border-b border-slate-100 pb-2">Section 5: Enquiry Qualification</span>
+                <!-- How Soon -->
+                <div class="flex flex-col gap-2">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">How soon are you looking to start? <span class="text-red-500">*</span></label>
+                  <div class="grid grid-cols-2 gap-2.5">
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-semibold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="timeline" value="Immediately" required class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>Immediately</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-semibold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="timeline" value="Within 30 Days" class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>Within 30 Days</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-semibold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="timeline" value="Within 3 Months" class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>Within 3 Months</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-3 rounded-lg border border-slate-200 bg-slate-50 cursor-pointer text-xs font-semibold hover:border-slate-350 text-slate-750 transition-all">
+                      <input type="radio" name="timeline" value="Exploring Options" class="w-4 h-4 text-yellow-500 focus:ring-0 bg-white border-slate-300 cursor-pointer" />
+                      <span>Exploring Options</span>
+                    </label>
+                  </div>
+                  <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please select a timeline</span>
+                </div>
+
+                <!-- Estimated Budget -->
+                <div class="flex flex-col gap-1.5 pt-2">
+                  <label class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest">Estimated Training Budget <span class="text-slate-550">(Optional)</span></label>
+                  <select
+                    name="budget"
+                    class="bg-white border border-slate-200 rounded-lg px-4 py-3 text-slate-800 text-sm focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-colors h-[46px] cursor-pointer"
+                  >
+                    <option value="" selected>Select budget range</option>
+                    <option value="Under $1,000">Under $1,000</option>
+                    <option value="$1,000-$5,000">$1,000 - $5,000</option>
+                    <option value="$5,000-$10,000">$5,000 - $10,000</option>
+                    <option value="$10,000+">$10,000+</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Consent Checkbox -->
+            <div class="border-t border-slate-100 pt-6">
+              <div class="flex flex-col gap-2">
+                <label class="flex items-start gap-3 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    name="consent"
+                    required
+                    class="mt-1 rounded-md border-slate-300 bg-white text-yellow-500 focus:ring-0 cursor-pointer"
+                  />
+                  <span class="text-xs text-slate-655 leading-normal">
+                    I agree to be contacted by BETACH Consulting Services regarding the SAFER Leadership Program. <span class="text-red-500">*</span>
+                  </span>
+                </label>
+                <span class="error-msg text-[10px] text-red-500 hidden mt-1"><i class="fa-solid fa-circle-exclamation mr-1"></i>Consent is required to apply</span>
+              </div>
+            </div>
+
+            <!-- Google reCAPTCHA -->
+            <div class="mt-6 border-t border-slate-100 pt-6 flex flex-col gap-2">
+              <div class="g-recaptcha" data-sitekey="6LcMgwItAAAAABpG3chMuySH1IgZSBNJ1Mr7Lwf4"></div>
+              <span id="recaptcha-error" class="error-msg text-[10px] text-red-500 hidden"><i class="fa-solid fa-circle-exclamation mr-1"></i>Please complete the reCAPTCHA challenge</span>
+            </div>
+          </div>
+
+        </form>
+
+        <!-- Success Message (Initially Hidden) -->
+        <div id="safer-success-screen" class="hidden overflow-y-auto p-8 lg:p-12 flex-grow flex flex-col items-center justify-center text-center space-y-6 animate-none bg-white">
+          <div class="w-16 h-16 bg-green-500/10 text-green-500 rounded-full flex items-center justify-center text-3xl shadow-lg border border-green-500/20">
+            <i class="fa-solid fa-circle-check"></i>
+          </div>
+          <h3 class="text-2xl lg:text-3xl font-black uppercase text-brand-primary tracking-tight leading-tight">
+            Application Submitted Successfully!
+          </h3>
+          <p class="text-slate-600 text-sm max-w-md mx-auto leading-relaxed">
+            Thank you for your interest in the SAFER Leadership Program. Our team will contact you within 24 hours to discuss your leadership development goals.
+          </p>
+          <div class="w-full max-w-xs border-t border-slate-100 pt-6 mt-4">
+            <p class="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-4">
+              Trusted by professionals across the Middle East.
+            </p>
+            <button
+              id="close-success-btn"
+              class="w-full bg-slate-100 border border-slate-200 hover:bg-slate-200 text-slate-800 font-bold py-3 px-6 rounded-lg uppercase tracking-wider text-xs shadow-md transition-all duration-200 text-center"
+            >
+              Close Window
+            </button>
+          </div>
+        </div>
+
+        <!-- Modal Footer / Wizard Controls (Hidden in Success Screen) -->
+        <div id="safer-modal-footer" class="p-6 border-t border-slate-100 bg-slate-50 flex items-center justify-between flex-shrink-0">
+          <button
+            id="safer-prev-btn"
+            type="button"
+            class="hidden bg-transparent border border-slate-350 text-slate-600 hover:bg-slate-100 hover:text-slate-800 font-extrabold px-6 py-3 rounded-lg uppercase tracking-wider text-xs transition-all duration-200 cursor-pointer"
+          >
+            Back
+          </button>
+          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-widest" id="step-progress-text">
+            Step 1 of 3
+          </div>
+          <button
+            id="safer-next-btn"
+            type="button"
+            class="bg-yellow-400 hover:bg-yellow-500 text-brand-primary font-black px-6 py-3 rounded-lg uppercase tracking-wider text-xs shadow-md transition-all duration-200 cursor-pointer"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/919324994927?text=hello"
+      class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-[#20BA56] hover:scale-110 active:scale-95 transition-all duration-300 group"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Chat on WhatsApp"
+    >
+      <!-- Tooltip -->
+      <span class="absolute right-16 bg-slate-900 text-white text-xs font-bold px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-md whitespace-nowrap pointer-events-none">
+        Chat with Us
+      </span>
+      <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- Modal Controller Script -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Modal Selectors
+        const modal = document.getElementById("safer-application-modal");
+        const card = document.getElementById("safer-modal-card");
+        const openBtn = document.getElementById("open-safer-modal");
+        const closeBtn = document.getElementById("close-safer-modal");
+        const closeSuccessBtn = document.getElementById("close-success-btn");
+        const form = document.getElementById("safer-application-form");
+        const successScreen = document.getElementById("safer-success-screen");
+        const modalFooter = document.getElementById("safer-modal-footer");
+        
+        // Wizard Controls
+        const prevBtn = document.getElementById("safer-prev-btn");
+        const nextBtn = document.getElementById("safer-next-btn");
+        const progressText = document.getElementById("step-progress-text");
+        
+        // Steps & Indicators
+        let currentStep = 1;
+        const totalSteps = 3;
+        
+        const steps = [
+          document.getElementById("safer-step-1"),
+          document.getElementById("safer-step-2"),
+          document.getElementById("safer-step-3")
+        ];
+        
+        const indicators = [
+          document.getElementById("step-indicator-1"),
+          document.getElementById("step-indicator-2"),
+          document.getElementById("step-indicator-3")
+        ];
+        
+        const lines = [
+          document.getElementById("step-line-1"),
+          document.getElementById("step-line-2")
+        ];
+        
+        // Radio Button Custom Styling Handlers
+        const radioGroups = ['registerFor', 'participants', 'format', 'timeline'];
+        radioGroups.forEach(groupName => {
+          const radios = document.querySelectorAll(`input[name="${groupName}"]`);
+          radios.forEach(radio => {
+            radio.addEventListener('change', () => {
+              // Remove active border from all sibling labels
+              radios.forEach(r => {
+                const label = r.closest('label');
+                if (label) {
+                  label.classList.remove('border-yellow-500', 'bg-yellow-500/5', 'text-yellow-600');
+                  label.classList.add('border-slate-200', 'bg-slate-50', 'text-slate-750');
+                }
+              });
+              
+              // Add active border to current checked label
+              if (radio.checked) {
+                const label = radio.closest('label');
+                if (label) {
+                  label.classList.remove('border-slate-200', 'bg-slate-50', 'text-slate-750');
+                  label.classList.add('border-yellow-500', 'bg-yellow-500/5', 'text-yellow-600');
+                }
+              }
+            });
+          });
+        });
+
+        // Open Modal Function
+        const openModal = () => {
+          modal.classList.remove("hidden");
+          document.body.classList.add("overflow-hidden");
+          setTimeout(() => {
+            modal.classList.remove("opacity-0");
+            card.classList.remove("scale-95");
+          }, 50);
+        };
+        
+        // Close Modal Function
+        const closeModal = () => {
+          modal.classList.add("opacity-0");
+          card.classList.add("scale-95");
+          document.body.classList.remove("overflow-hidden");
+          setTimeout(() => {
+            modal.classList.add("hidden");
+            // Reset Wizard to step 1 upon closing
+            resetForm();
+          }, 300);
+        };
+        
+        // Reset form function
+        const resetForm = () => {
+          form.reset();
+          currentStep = 1;
+          showStep(currentStep);
+          form.classList.remove("hidden");
+          successScreen.classList.add("hidden");
+          modalFooter.classList.remove("hidden");
+          
+          // Clear error markers
+          document.querySelectorAll('.error-msg').forEach(el => el.classList.add('hidden'));
+          document.querySelectorAll('input, select, textarea').forEach(el => {
+            el.classList.remove('border-red-500');
+            el.classList.add('border-slate-200');
+          });
+          
+          // Reset custom radio selections styling
+          document.querySelectorAll('input[type="radio"]').forEach(radio => {
+            const label = radio.closest('label');
+            if (label) {
+              label.classList.remove('border-yellow-500', 'bg-yellow-500/5', 'text-yellow-600');
+              label.classList.add('border-slate-200', 'bg-slate-50', 'text-slate-750');
+            }
+          });
+
+          // Reset reCAPTCHA challenge
+          if (typeof grecaptcha !== "undefined") {
+            grecaptcha.reset();
+          }
+        };
+        
+        if (openBtn) openBtn.addEventListener("click", openModal);
+        if (closeBtn) closeBtn.addEventListener("click", closeModal);
+        if (closeSuccessBtn) closeSuccessBtn.addEventListener("click", closeModal);
+        
+        // Close modal when clicking on backdrop overlay (outside the modal card)
+        modal.addEventListener("click", (e) => {
+          if (e.target === modal) closeModal();
+        });
+        
+        // Show current step function
+        const showStep = (step) => {
+          steps.forEach((el, index) => {
+            if (index === step - 1) {
+              el.classList.remove("hidden");
+            } else {
+              el.classList.add("hidden");
+            }
+          });
+          
+          // Update indicators
+          indicators.forEach((el, index) => {
+            const numSpan = el.querySelector("span");
+            if (index < step) {
+              // Completed or Active step
+              el.classList.remove("text-slate-450");
+              el.classList.add("text-brand-primary", "font-bold");
+              if (numSpan) {
+                numSpan.className = "w-6 h-6 rounded-full bg-yellow-400 text-brand-primary flex items-center justify-center text-xs font-black";
+                numSpan.innerHTML = index + 1 < step ? "<i class='fa-solid fa-check text-[8px]'></i>" : index + 1;
+              }
+            } else {
+              // Inactive step
+              el.classList.remove("text-brand-primary", "font-bold");
+              el.classList.add("text-slate-450");
+              if (numSpan) {
+                numSpan.className = "w-6 h-6 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center text-xs font-black";
+                numSpan.innerHTML = index + 1;
+              }
+            }
+          });
+          
+          // Update lines
+          lines.forEach((el, index) => {
+            if (index < step - 1) {
+              el.classList.replace("bg-slate-200", "bg-yellow-400/60");
+            } else {
+              el.classList.replace("bg-yellow-400/60", "bg-slate-200");
+            }
+          });
+          
+          // Update buttons
+          if (step === 1) {
+            prevBtn.classList.add("hidden");
+          } else {
+            prevBtn.classList.remove("hidden");
+          }
+          
+          if (step === totalSteps) {
+            nextBtn.innerText = "Apply Now";
+            nextBtn.classList.remove("bg-yellow-400", "hover:bg-yellow-500", "text-brand-primary");
+            nextBtn.classList.add("bg-[#f3a43b]", "hover:bg-[#f3a43b]/90", "text-white");
+          } else {
+            nextBtn.innerText = "Continue";
+            nextBtn.classList.remove("bg-[#f3a43b]", "hover:bg-[#f3a43b]/90", "text-white");
+            nextBtn.classList.add("bg-yellow-400", "hover:bg-yellow-500", "text-brand-primary");
+          }
+          
+          progressText.innerText = `Step ${step} of ${totalSteps}`;
+          form.scrollTop = 0; // Scroll form to top
+        };
+        
+        // Validation check for a specific step
+        const validateStep = (step) => {
+          let isValid = true;
+          const currentStepEl = steps[step - 1];
+          const inputs = currentStepEl.querySelectorAll("input[required], select[required], textarea[required]");
+          
+          inputs.forEach(input => {
+            let fieldValid = true;
+            
+            // Check radio button group
+            if (input.type === 'radio') {
+              const name = input.name;
+              const checkedOption = currentStepEl.querySelector(`input[name="${name}"]:checked`);
+              if (!checkedOption) {
+                fieldValid = false;
+              }
+            } else if (input.type === 'checkbox') {
+              if (!input.checked) {
+                fieldValid = false;
+              }
+            } else {
+              // Regular text / select / textarea
+              if (input.value.trim() === "") {
+                fieldValid = false;
+              } else if (input.type === 'email') {
+                const emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailReg.test(input.value.trim())) {
+                  fieldValid = false;
+                }
+              }
+            }
+            
+            // Find closest error message element
+            let errorEl = input.closest('.flex-col').querySelector('.error-msg');
+            
+            if (!fieldValid) {
+              isValid = false;
+              if (errorEl) errorEl.classList.remove('hidden');
+              if (input.type !== 'radio' && input.type !== 'checkbox') {
+                input.classList.remove('border-slate-200');
+                input.classList.add('border-red-500');
+              }
+            } else {
+              if (errorEl) errorEl.classList.add('hidden');
+              if (input.type !== 'radio' && input.type !== 'checkbox') {
+                input.classList.remove('border-red-500');
+                input.classList.add('border-slate-200');
+              }
+            }
+          });
+          
+          return isValid;
+        };
+        
+        // Event Listeners for controls
+        prevBtn.addEventListener("click", () => {
+          if (currentStep > 1) {
+            currentStep--;
+            showStep(currentStep);
+          }
+        });
+        
+        nextBtn.addEventListener("click", (e) => {
+          e.preventDefault();
+          
+          // If not valid, halt
+          if (!validateStep(currentStep)) {
+            return;
+          }
+          
+          if (currentStep < totalSteps) {
+            currentStep++;
+            showStep(currentStep);
+          } else {
+            // Validate Google reCAPTCHA
+            const recaptchaErrorEl = document.getElementById("recaptcha-error");
+            if (typeof grecaptcha !== "undefined") {
+              const recaptchaResponse = grecaptcha.getResponse();
+              if (!recaptchaResponse) {
+                if (recaptchaErrorEl) recaptchaErrorEl.classList.remove("hidden");
+                return;
+              } else {
+                if (recaptchaErrorEl) recaptchaErrorEl.classList.add("hidden");
+              }
+            }
+
+            // Reached submit state!
+            // Transition to Success screen
+            form.classList.add("hidden");
+            modalFooter.classList.add("hidden");
+            successScreen.classList.remove("hidden");
+          }
+        });
+      });
+    </script>
   </body>
 </html>
